@@ -238,6 +238,7 @@ footer {
 }
 .home .walk .walk-text .btn {
   display: inline-block;
+  transition: ease-in 0.2s;
   background: #22283A;
   color: #F6F7F8;
   font-size: 1.6rem;
@@ -245,6 +246,11 @@ footer {
   border-radius: 0.5rem;
   text-align: center;
   font-weight: 600;
+}
+.home .walk .walk-text .btn:hover {
+  background: #F6F7F8;
+  color: #454A59;
+  border: 1px solid #454A59;
 }
 .home .walk .walk-img {
   width: 46%;
