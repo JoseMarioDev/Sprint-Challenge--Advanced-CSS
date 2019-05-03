@@ -1,3 +1,25 @@
+@media (max-width: 500px) {
+  .blast {
+    width: 100% !important;
+  }
+  .sky,
+  .launch {
+    display: none;
+  }
+  .walk {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .walk .walk-text {
+    width: 100% !important;
+  }
+  .walk .walk-text .btn {
+    width: 100%;
+  }
+  .walk .walk-img {
+    width: 100% !important;
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -135,7 +157,7 @@ html {
 html,
 body {
   font-family: 'Ubuntu', sans-serif;
-  color: #5E6164;
+  color: #5e6164;
 }
 h1,
 h2,
@@ -143,7 +165,7 @@ h3,
 h4,
 h5 {
   font-family: 'Russo One', sans-serif;
-  color: #23293B;
+  color: #23293b;
 }
 h1 {
   font-size: 4rem;
@@ -160,7 +182,7 @@ p {
 }
 a {
   text-decoration: none;
-  color: #454A59;
+  color: #454a59;
   font-size: 1.6rem;
   line-height: 1.4;
 }
@@ -170,8 +192,8 @@ a {
   margin: 0 auto;
 }
 nav {
-  background: #F6F6F6;
-  border-bottom: 1px solid #F1F1F1;
+  background: #f6f6f6;
+  border-bottom: 1px solid #f1f1f1;
 }
 nav h1 {
   text-align: center;
@@ -199,6 +221,9 @@ footer {
 }
 .home .intro p {
   padding: 0 15px;
+}
+.home .img-box img {
+  width: 100%;
 }
 .home .space-images {
   display: flex;
@@ -238,19 +263,19 @@ footer {
 }
 .home .walk .walk-text .btn {
   display: inline-block;
-  transition: ease-in 0.2s;
-  background: #22283A;
-  color: #F6F7F8;
-  font-size: 1.6rem;
   padding: 1rem 2rem;
+  transition: ease-in 0.2s;
+  background: #22283a;
+  color: #f6f7f8;
+  font-size: 1.6rem;
   border-radius: 0.5rem;
   text-align: center;
   font-weight: 600;
 }
 .home .walk .walk-text .btn:hover {
-  background: #F6F7F8;
-  color: #454A59;
-  border: 1px solid #454A59;
+  background: #f6f7f8;
+  color: #454a59;
+  border: 1px solid #454a59;
 }
 .home .walk .walk-img {
   width: 46%;

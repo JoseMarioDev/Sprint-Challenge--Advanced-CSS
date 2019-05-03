@@ -11,6 +11,10 @@
     }
   }
 
+  .img-box img {
+    width: 100%;
+  }
+
   .space-images {
     display: flex;
     flex-wrap: wrap;
@@ -56,16 +60,9 @@
 
       .btn {
         display: inline-block;
+        padding: 1rem 2rem;
         transition: ease-in 0.2s;
-        .btn-style(
-          @btn-bg-color,
-          @porcelain,
-          1.6rem,
-          1rem 2rem,
-          0.5rem,
-          center,
-          600
-        );
+        .btn-style(@btn-bg-color, @porcelain, 1.6rem, 0.5rem, center, 600);
         &:hover {
           .btn-hover(@porcelain, @river-bend, 1px solid @river-bend);
         }
