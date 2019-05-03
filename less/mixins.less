@@ -1,8 +1,16 @@
 // Mixins Here
 
 .font-decoration(@f-size, @l-height) {
-  //  font-size: 1.6rem;
-  // line-height: 1.4;
   font-size: @f-size;
   line-height: @l-height;
+}
+
+.btn-style(@bg-color,@color,@f-size,@padding,@b-radius,@align,@fweight) {
+  background: @bg-color;
+  color: @color;
+  font-size: @f-size;
+  padding: @padding;
+  border-radius: @b-radius;
+  text-align: @align;
+  font-weight: @fweight;
 }
