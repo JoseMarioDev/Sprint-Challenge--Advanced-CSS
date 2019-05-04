@@ -1,1 +1,22 @@
 // Mixins Here
+
+.font-decoration(@f-size, @l-height) {
+  font-size: @f-size;
+  line-height: @l-height;
+}
+
+.btn-style(@bg-color,@color,@f-size,@b-radius,@align,@fweight) {
+  background: @bg-color;
+  color: @color;
+  font-size: @f-size;
+  border-radius: @b-radius;
+  text-align: @align;
+  font-weight: @fweight;
+}
+
+.btn-hover(@bg-color, @color, @border) {
+  background: @bg-color;
+  color: @color;
+  border: @border;
+}
+
